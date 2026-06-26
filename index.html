@@ -9,162 +9,147 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="orb orb1"></div>
-  <div class="orb orb2"></div>
-
   <header class="nav">
     <a class="brand" href="#top">
-      <img src="assets/favicon.svg" alt="BTCWH logo">
-      <span data-i18n="brand">BTC WHITE</span>
+      <img src="assets/favicon.svg" alt="BTCWH logo" />
+      <span>BTC WHITE</span>
     </a>
 
-    <nav>
+    <nav class="desktopNav">
       <a href="#about" data-i18n="nav_about">About</a>
-      <a href="#advantages" data-i18n="nav_advantages"><span data-i18n="nav_advantages">Advantages</span></a>
-      <a href="#tokenomics" data-i18n="nav_tokenomics"><span data-i18n="nav_tokenomics">Tokenomics</span></a>
-      <a href="#roadmap" data-i18n="nav_roadmap"><span data-i18n="nav_roadmap">Roadmap</span></a>
-      <a href="#whitepaper" data-i18n="nav_whitepaper"><span data-i18n="nav_whitepaper">Whitepaper</span></a>
+      <a href="#tokenomics" data-i18n="nav_tokenomics">Tokenomics</a>
+      <a href="#presale" data-i18n="nav_presale">Presale</a>
+      <a href="#roadmap" data-i18n="nav_roadmap">Roadmap</a>
       <a href="#faq" data-i18n="nav_faq">FAQ</a>
     </nav>
 
     <div class="navActions">
       <select id="languageSelect" class="languageSelect" aria-label="Select language">
-        <option value="en">🌐 EN</option>
-        <option value="ru">🇷🇺 RU</option>
-        <option value="uk">🇺🇦 UA</option>
+        <option value="en">🇺🇸 EN</option>
         <option value="zh">🇨🇳 中文</option>
+        <option value="ru">🇷🇺 RU</option>
+        <option value="hi">🇮🇳 HI</option>
         <option value="es">🇪🇸 ES</option>
         <option value="ko">🇰🇷 KO</option>
-        <option value="hi">🇮🇳 HI</option>
       </select>
-      <button id="themeToggle" class="iconBtn" aria-label="Toggle theme">◐</button>
+      <button id="themeToggle" class="iconBtn" aria-label="Toggle theme">🌙</button>
       <button id="walletBtn" class="walletBtn" data-i18n="connect_wallet">Connect Wallet</button>
     </div>
   </header>
 
   <main id="top">
-    <section class="hero">
-      <div class="heroText reveal">
-        <p class="eyebrow"><span data-i18n="hero_eyebrow">BTCWH • Solana • Global Payment Vision</span></p>
+    <section class="hero reveal">
+      <div class="heroText">
+        <p class="eyebrow" data-i18n="hero_eyebrow">BTCWH • SOLANA • GLOBAL PAYMENT VISION</p>
         <h1><span data-i18n="hero_title_1">The Time Has Come.</span><br><span data-i18n="hero_title_2">Now BTCWH.</span></h1>
-        <p class="lead">
-          <span data-i18n="hero_lead">BTC White is a next-generation digital asset created with a white and silver identity, fixed supply, transparent tokenomics, and a long-term goal to become a practical payment asset.</span>
-        </p>
+        <p class="lead" data-i18n="hero_lead">BTC White is a next-generation digital asset created with a white and silver identity, fixed supply, transparent tokenomics, and a long-term goal to become a practical payment asset.</p>
         <div class="actions">
-          <a class="btn primary" href="#presale"><span data-i18n="buy_btcwh">Buy BTCWH</span></a>
-          <a class="btn secondary" href="#whitepaper"><span data-i18n="download_whitepaper">Download <span data-i18n="nav_whitepaper">Whitepaper</span></span></a>
+          <a class="btn primary" href="#presale" data-i18n="buy_btcwh">Buy BTCWH</a>
+          <a class="btn secondary" href="#whitepaper" data-i18n="download_whitepaper">Download Whitepaper</a>
         </div>
         <div class="stats">
-          <div><strong>21,000,000</strong><small><span data-i18n="total_supply">Total Supply</span></small></div>
-          <div><strong>0.10 USDT</strong><small><span data-i18n="presale_price">Presale Price</span></small></div>
-          <div><strong>10 USDT</strong><small><span data-i18n="minimum_purchase">Minimum Purchase</span></small></div>
+          <div><strong>21,000,000</strong><small data-i18n="total_supply">Total Supply</small></div>
+          <div><strong>0.10 USDT</strong><small data-i18n="presale_price">Presale Price</small></div>
+          <div><strong>10 USDT</strong><small data-i18n="minimum_purchase">Minimum Purchase</small></div>
         </div>
       </div>
-      <div class="coinWrap reveal">
-        <div class="coinHalo"></div>
-        <img class="coin" src="assets/favicon.svg" alt="BTCWH coin">
+      <div class="coinArea">
+        <div class="coinGlow"></div>
+        <img class="coin" src="assets/favicon.svg" alt="BTCWH coin" />
       </div>
     </section>
 
     <section id="about" class="section reveal">
-      <p class="eyebrow"><span data-i18n="about_eyebrow">About BTCWH</span></p>
-      <h2><span data-i18n="about_title">BTC White is built for a new digital generation.</span></h2>
-      <p class="sectionLead">
-        <span data-i18n="about_text">The project combines a premium white/silver brand identity with a clear economic model and a long-term mission: to develop BTCWH into a usable digital payment instrument within its ecosystem and with future partners where permitted by law.</span>
-      </p>
+      <p class="eyebrow" data-i18n="about_eyebrow">About BTCWH</p>
+      <h2 data-i18n="about_title">BTC White is built for a new digital generation.</h2>
+      <p class="sectionLead" data-i18n="about_text">The project combines a premium white/silver brand identity with a clear economic model and a long-term mission: to develop BTCWH into a usable digital payment instrument within its ecosystem and with future partners where permitted by law.</p>
     </section>
 
-    <section id="advantages" class="section">
+    <section id="advantages" class="section reveal">
+      <p class="eyebrow" data-i18n="advantages_eyebrow">Advantages</p>
+      <h2 data-i18n="advantages_title">Why BTCWH?</h2>
       <div class="cards">
-        <article class="card reveal"><span>01</span><h3>Fixed Supply</h3><p>Maximum emission is limited to 21,000,000 BTCWH.</p></article>
-        <article class="card reveal"><span>02</span><h3>Transparent Model</h3><p>Clear allocation for liquidity, reserve, marketing, team, and presale.</p></article>
-        <article class="card reveal"><span>03</span><h3>Community Driven</h3><p>The project is designed to grow through community, partners, and long-term utility.</p></article>
-        <article class="card reveal"><span>04</span><h3>Secure Foundation</h3><p>btcwh.io is protected by Cloudflare and ready for global publication.</p></article>
+        <article class="card"><span>01</span><h3 data-i18n="adv1_title">Fixed Supply</h3><p data-i18n="adv1_text">Maximum emission is limited to 21,000,000 BTCWH.</p></article>
+        <article class="card"><span>02</span><h3 data-i18n="adv2_title">Transparent Model</h3><p data-i18n="adv2_text">Clear allocation for liquidity, reserve, marketing, team, and presale.</p></article>
+        <article class="card"><span>03</span><h3 data-i18n="adv3_title">Community Driven</h3><p data-i18n="adv3_text">The project is designed to grow through community, partners, and long-term utility.</p></article>
+        <article class="card"><span>04</span><h3 data-i18n="adv4_title">Secure Foundation</h3><p data-i18n="adv4_text">btcwh.io is protected by Cloudflare and ready for global publication.</p></article>
       </div>
     </section>
 
-    <section id="tokenomics" class="section split reveal">
-      <div>
-        <p class="eyebrow"><span data-i18n="nav_tokenomics">Tokenomics</span></p>
-        <h2>21 million BTCWH. Clear allocation.</h2>
-        <p class="muted">The tokenomics are designed for liquidity, growth, controlled reserves, and long-term development.</p>
-      </div>
+    <section id="tokenomics" class="section reveal">
+      <p class="eyebrow" data-i18n="tokenomics_eyebrow">Tokenomics</p>
+      <h2 data-i18n="tokenomics_title">21 million BTCWH. Clear allocation.</h2>
       <div class="tableBox">
         <table>
-          <tr><th>Category</th><th>Share</th><th>Tokens</th></tr>
-          <tr><td>Liquidity</td><td>65%</td><td>13,650,000</td></tr>
-          <tr><td>Team</td><td>15%</td><td>3,150,000</td></tr>
-          <tr><td>Reserve</td><td>10%</td><td>2,100,000</td></tr>
-          <tr><td>Marketing</td><td>5%</td><td>1,050,000</td></tr>
-          <tr><td>Founders Presale</td><td>5%</td><td>1,050,000</td></tr>
+          <thead><tr><th data-i18n="category">Category</th><th data-i18n="share">Share</th><th data-i18n="tokens">Tokens</th></tr></thead>
+          <tbody>
+            <tr><td data-i18n="liq">Liquidity</td><td>65%</td><td>13,650,000</td></tr>
+            <tr><td data-i18n="team">Team</td><td>15%</td><td>3,150,000</td></tr>
+            <tr><td data-i18n="reserve">Reserve</td><td>10%</td><td>2,100,000</td></tr>
+            <tr><td data-i18n="marketing">Marketing</td><td>5%</td><td>1,050,000</td></tr>
+            <tr><td data-i18n="founders_presale">Founders Presale</td><td>5%</td><td>1,050,000</td></tr>
+          </tbody>
         </table>
       </div>
     </section>
 
     <section id="presale" class="section reveal">
       <div class="presaleBox">
-        <p class="eyebrow">Founders Presale</p>
-        <h2>Early access phase.</h2>
+        <p class="eyebrow" data-i18n="presale_eyebrow">Founders Presale</p>
+        <h2 data-i18n="presale_title">Early access phase.</h2>
+        <p class="sectionLead" data-i18n="presale_text">The presale continues until the allocated amount of 1,050,000 BTCWH is fully sold.</p>
         <div class="presaleGrid">
-          <div><span>Price</span><strong>0.10 USDT</strong></div>
-          <div><span>Minimum</span><strong>10 USDT</strong></div>
-          <div><span>Maximum</span><strong>2,000 USDT</strong></div>
-          <div><span>Allocation</span><strong>1,050,000 BTCWH</strong></div>
+          <div><span data-i18n="price">Price</span><strong>0.10 USDT</strong></div>
+          <div><span data-i18n="minimum">Minimum</span><strong>10 USDT</strong></div>
+          <div><span data-i18n="maximum">Maximum</span><strong>2,000 USDT</strong></div>
+          <div><span data-i18n="allocation">Allocation</span><strong>1,050,000 BTCWH</strong></div>
         </div>
-        <div class="countdown" aria-label="Presale countdown placeholder">
-          <div><strong>00</strong><span>Days</span></div>
-          <div><strong>00</strong><span>Hours</span></div>
-          <div><strong>00</strong><span>Minutes</span></div>
-          <div><strong>00</strong><span>Seconds</span></div>
-        </div>
-        <a class="btn primary disabled" href="#">Presale Coming Soon</a>
-        <p class="note">Official contract address and payment instructions will be published only on btcwh.io and official BTCWH channels.</p>
+        <button class="btn primary disabled" data-i18n="presale_soon">Presale Coming Soon</button>
+        <p class="note" data-i18n="presale_note">Official contract address and payment instructions will be published only on btcwh.io and official BTCWH channels.</p>
       </div>
     </section>
 
     <section id="roadmap" class="section reveal">
-      <p class="eyebrow"><span data-i18n="nav_roadmap">Roadmap</span></p>
-      <h2>From brand foundation to BTCWH Pay.</h2>
+      <p class="eyebrow" data-i18n="roadmap_eyebrow">Roadmap</p>
+      <h2 data-i18n="roadmap_title">From brand foundation to BTCWH Pay.</h2>
       <div class="timeline">
-        <div><b>Phase 1</b><span>Brand, logo, domain, Cloudflare, website.</span></div>
-        <div><b>Phase 2</b><span><span data-i18n="nav_whitepaper">Whitepaper</span>, community, presale infrastructure.</span></div>
-        <div><b>Phase 3</b><span>Token launch, liquidity, DEX listing, LP lock.</span></div>
-        <div><b>Phase 4</b><span>Partnerships, BTCWH Pay, global ecosystem.</span></div>
+        <div><b data-i18n="phase1">Phase 1</b><span data-i18n="phase1_text">Brand, logo, domain, Cloudflare, website.</span></div>
+        <div><b data-i18n="phase2">Phase 2</b><span data-i18n="phase2_text">Whitepaper, community, presale infrastructure.</span></div>
+        <div><b data-i18n="phase3">Phase 3</b><span data-i18n="phase3_text">Token launch, liquidity, DEX listing, LP lock.</span></div>
+        <div><b data-i18n="phase4">Phase 4</b><span data-i18n="phase4_text">Partnerships, BTCWH Pay, global ecosystem.</span></div>
       </div>
     </section>
 
-    <section id="whitepaper" class="section whitepaper reveal">
-      <div>
-        <p class="eyebrow"><span data-i18n="nav_whitepaper">Whitepaper</span></p>
-        <h2>Official documentation will be published here.</h2>
-        <p class="muted">The BTCWH <span data-i18n="nav_whitepaper">Whitepaper</span> will include project mission, tokenomics, roadmap, reserve rules, presale rules and ecosystem vision.</p>
-      </div>
-      <a class="btn secondary disabled" href="#"><span data-i18n="download_whitepaper">Download <span data-i18n="nav_whitepaper">Whitepaper</span></span> Soon</a>
+    <section id="whitepaper" class="section reveal">
+      <p class="eyebrow" data-i18n="whitepaper_eyebrow">Whitepaper</p>
+      <h2 data-i18n="whitepaper_title">Official documentation will be published here.</h2>
+      <p class="sectionLead" data-i18n="whitepaper_text">The BTCWH Whitepaper will include project mission, tokenomics, roadmap, reserve rules, presale rules and ecosystem vision.</p>
+      <button class="btn secondary disabled" data-i18n="whitepaper_soon">Download Whitepaper Soon</button>
     </section>
 
     <section id="faq" class="section faq reveal">
       <p class="eyebrow">FAQ</p>
-      <h2>Common questions.</h2>
-      <details open><summary>What is BTCWH?</summary><p>BTCWH is the ticker for BTC White, a digital asset project with a long-term payment ecosystem vision.</p></details>
-      <details><summary>What is the official website?</summary><p>The official website is btcwh.io.</p></details>
-      <details><summary>What is the presale minimum?</summary><p>The minimum Founders Presale purchase is 10 USDT.</p></details>
-      <details><summary>Is the team public?</summary><p>The project starts with an anonymous team, with possible team structure disclosure after approximately 36 months.</p></details>
+      <h2 data-i18n="faq_title">Common questions.</h2>
+      <details open><summary data-i18n="faq1_q">What is BTCWH?</summary><p data-i18n="faq1_a">BTCWH is the ticker for BTC White, a digital asset project with a long-term payment ecosystem vision.</p></details>
+      <details><summary data-i18n="faq2_q">What is the official website?</summary><p data-i18n="faq2_a">The official website is btcwh.io.</p></details>
+      <details><summary data-i18n="faq3_q">What is the presale minimum?</summary><p data-i18n="faq3_a">The minimum Founders Presale purchase is 10 USDT.</p></details>
+      <details><summary data-i18n="faq4_q">Which blockchain will BTCWH use?</summary><p data-i18n="faq4_a">BTCWH is planned for the Solana network.</p></details>
     </section>
   </main>
 
   <footer>
-    <div class="brand"><img src="assets/favicon.svg" alt="BTCWH"><span>BTC WHITE</span></div>
-    <p>© 2026 BTC White. The Time Has Come. Now BTCWH.</p>
+    <div class="brand"><img src="assets/favicon.svg" alt="BTCWH" /><span>BTC WHITE</span></div>
+    <p data-i18n="footer">© 2026 BTC White. The Time Has Come. Now BTCWH.</p>
   </footer>
 
-
-  <div id="walletModal" class="modal" aria-hidden="true">
+  <div id="walletModal" class="modal">
     <div class="modalCard">
       <button id="closeModal" class="closeBtn">×</button>
       <h3 data-i18n="wallet_soon_title">Wallet connection is coming soon</h3>
       <p data-i18n="wallet_soon_text">The official BTCWH presale wallet connection will be enabled only after the token contract and presale smart contract are published.</p>
     </div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
