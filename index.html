@@ -1,122 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BTC White | BTCWH</title>
-  <meta name="description" content="BTC White (BTCWH) — live on Solana. Fixed supply, transparent tokenomics, long-term payment ecosystem vision." />
-  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="BTC White (BTCWH) official website — transparent digital payment ecosystem on Solana.">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="nav">
-    <a class="brand" href="#top"><img src="btcwh-logo.jpeg" alt="BTCWH logo" /><span>BTC WHITE</span></a>
-    <nav class="desktopNav">
-      <a href="#about" data-i18n="nav_about">About</a>
-      <a href="#status" data-i18n="nav_status">Live</a>
-      <a href="#tokenomics" data-i18n="nav_tokenomics">Tokenomics</a>
-      <a href="#whitepaper" data-i18n="nav_whitepaper">Whitepaper</a>
-      <a href="#roadmap" data-i18n="nav_roadmap">Roadmap</a>
-      <a href="#faq" data-i18n="nav_faq">FAQ</a>
-    </nav>
-    <div class="navActions">
-      <select id="languageSelect" class="languageSelect" aria-label="Select language">
-        <option value="en">🇺🇸 EN</option><option value="ru">🇷🇺 RU</option><option value="es">🇪🇸 ES</option><option value="zh">🇨🇳 中文</option><option value="ko">🇰🇷 KO</option><option value="hi">🇮🇳 HI</option>
-      </select>
-      <button id="themeToggle" class="iconBtn" aria-label="Toggle theme">🌙</button>
-      <a class="walletBtn" href="https://raydium.io/swap/?inputMint=sol&outputMint=GTUy76j5ALxwL9m6tMK9sNdqqZsfqiSgD2Zjo47eJCtA" target="_blank" rel="noopener" data-i18n="buy_btcwh">Buy BTCWH</a>
+<header class="topbar">
+  <a href="#top" class="brand"><img src="favicon.png" alt="BTC White logo"><span>BTC WHITE</span></a>
+  <button class="menuBtn" id="menuBtn" aria-label="Menu">☰</button>
+  <nav id="nav" class="nav"></nav>
+  <div class="controls">
+    <select id="languageSelect" aria-label="Language">
+      <option value="en">🇺🇸 EN</option><option value="ru">🇷🇺 RU</option><option value="es">🇪🇸 ES</option><option value="zh">🇨🇳 中文</option><option value="ko">🇰🇷 KO</option><option value="hi">🇮🇳 HI</option>
+    </select>
+    <button id="themeToggle" class="round" aria-label="Theme">🌙</button>
+  </div>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="heroCopy">
+      <p id="heroEyebrow" class="eyebrow"></p>
+      <h1 id="heroTitle"></h1>
+      <p id="heroLead" class="lead"></p>
+      <div class="heroActions"><a href="#highlights" id="heroPrimary" class="btn primary"></a><a href="#whitepaper" id="heroSecondary" class="btn secondary"></a></div>
+      <p id="heroNotice" class="notice"></p>
     </div>
-  </header>
-  <main id="top">
-    <section class="hero reveal">
-      <div class="heroText">
-        <p class="eyebrow" data-i18n="hero_eyebrow">BTCWH • SOLANA • LIVE TOKEN</p>
-        <h1><span data-i18n="hero_title_1">The Time Has Come.</span><br><span data-i18n="hero_title_2">Now BTCWH.</span></h1>
-        <p class="lead" data-i18n="hero_lead">BTC White is a next-generation digital asset live on Solana, built around a white and silver identity, fixed supply, transparent tokenomics, and a long-term payment ecosystem vision.</p>
-        <div class="actions">
-          <a class="btn primary" href="https://raydium.io/swap/?inputMint=sol&outputMint=GTUy76j5ALxwL9m6tMK9sNdqqZsfqiSgD2Zjo47eJCtA" target="_blank" rel="noopener" data-i18n="open_raydium">Open Raydium</a>
-          <a class="btn secondary" href="#whitepaper" data-i18n="download_whitepaper">Download Whitepaper</a>
-        </div>
-        <div class="stats">
-          <div><strong>21,000,000</strong><small data-i18n="total_supply">Total Supply</small></div>
-          <div><strong>Solana</strong><small data-i18n="blockchain">Blockchain</small></div>
-          <div><strong>BTCWH</strong><small data-i18n="symbol">Token Symbol</small></div>
-        </div>
-      </div>
-      <div class="coinArea"><div class="coinGlow"></div><img class="coin" src="btcwh-logo.jpeg" alt="BTCWH coin" /></div>
-    </section>
-
-    <section id="status" class="section reveal">
-      <p class="eyebrow" data-i18n="status_eyebrow">Current Status</p>
-      <h2 data-i18n="status_title">BTCWH is live on Solana.</h2>
-      <p class="sectionLead" data-i18n="status_text">The BTCWH token has been created on Solana and is available through the BTCWH/SOL market. Always verify the official token address before trading.</p>
-      <div class="cards">
-        <article class="card"><span>01</span><h3 data-i18n="contract_title">Token Address</h3><p><code>GTUy76j5ALxwL9m6tMK9sNdqqZsfqiSgD2Zjo47eJCtA</code></p></article>
-        <article class="card"><span>02</span><h3>Solscan</h3><p><a href="https://solscan.io/token/GTUy76j5ALxwL9m6tMK9sNdqqZsfqiSgD2Zjo47eJCtA" target="_blank" rel="noopener" data-i18n="view_token">View token</a></p></article>
-        <article class="card"><span>03</span><h3>Raydium</h3><p><a href="https://raydium.io/swap/?inputMint=sol&outputMint=GTUy76j5ALxwL9m6tMK9sNdqqZsfqiSgD2Zjo47eJCtA" target="_blank" rel="noopener" data-i18n="trade_pair">Trade BTCWH/SOL</a></p></article>
-        <article class="card"><span>04</span><h3>DexScreener</h3><p><a href="https://dexscreener.com/solana/GTUy76j5ALxwL9m6tMK9sNdqqZsfqiSgD2Zjo47eJCtA" target="_blank" rel="noopener" data-i18n="view_chart">View chart</a></p></article>
-      </div>
-    </section>
-
-    <section id="about" class="section reveal">
-      <p class="eyebrow" data-i18n="about_eyebrow">About BTCWH</p>
-      <h2 data-i18n="about_title">BTC White is built for a new digital generation.</h2>
-      <p class="sectionLead" data-i18n="about_text">BTC White combines a premium white/silver brand identity with a clear economic model and a long-term mission: to develop BTCWH into a usable digital payment instrument within its ecosystem and with future partners where permitted by law.</p>
-    </section>
-
-    <section id="advantages" class="section reveal">
-      <p class="eyebrow" data-i18n="advantages_eyebrow">Advantages</p><h2 data-i18n="advantages_title">Why BTCWH?</h2>
-      <div class="cards">
-        <article class="card"><span>01</span><h3 data-i18n="adv1_title">Fixed Supply</h3><p data-i18n="adv1_text">Maximum supply is limited to 21,000,000 BTCWH.</p></article>
-        <article class="card"><span>02</span><h3 data-i18n="adv2_title">Transparent Model</h3><p data-i18n="adv2_text">Clear allocation for liquidity, strategic reserve, marketing, team, ecosystem development, and community participation.</p></article>
-        <article class="card"><span>03</span><h3 data-i18n="adv3_title">Community Driven</h3><p data-i18n="adv3_text">The project is designed to grow through community, partners, market visibility, and long-term utility.</p></article>
-        <article class="card"><span>04</span><h3 data-i18n="adv4_title">Security First</h3><p data-i18n="adv4_text">Official information is published through btcwh.io. Users should verify links and never share private keys or seed phrases.</p></article>
-      </div>
-    </section>
-
-    <section id="tokenomics" class="section reveal">
-      <p class="eyebrow" data-i18n="tokenomics_eyebrow">Tokenomics</p><h2 data-i18n="tokenomics_title">21 million BTCWH. Clear allocation.</h2>
-      <div class="tableBox"><table><thead><tr><th data-i18n="category">Category</th><th data-i18n="share">Share</th><th data-i18n="tokens">Tokens</th></tr></thead><tbody>
-        <tr><td data-i18n="liq">Liquidity</td><td>65%</td><td>13,650,000</td></tr>
-        <tr><td data-i18n="team">Team & Development</td><td>15%</td><td>3,150,000</td></tr>
-        <tr><td data-i18n="reserve">Strategic Reserve</td><td>10%</td><td>2,100,000</td></tr>
-        <tr><td data-i18n="marketing">Marketing & Growth</td><td>5%</td><td>1,050,000</td></tr>
-        <tr><td data-i18n="founders_presale">Community / Early Distribution</td><td>5%</td><td>1,050,000</td></tr>
-      </tbody></table></div>
-    </section>
-
-    <section id="whitepaper" class="section reveal">
-      <p class="eyebrow" data-i18n="whitepaper_eyebrow">Whitepaper</p><h2 data-i18n="whitepaper_title">Official BTC White Whitepaper.</h2>
-      <p class="sectionLead" data-i18n="whitepaper_text">Download the official BTC White Whitepaper in your preferred language. The document describes mission, tokenomics, roadmap, security principles, BTCWH Pay vision, and long-term ecosystem strategy.</p>
-      <div class="actions">
-        <a class="btn secondary" href="BTC_White_Whitepaper_v1.0_Final_EN.pdf" target="_blank">🇺🇸 English PDF</a>
-        <a class="btn secondary" href="BTC_White_Whitepaper_v1.0_RU.pdf" target="_blank">🇷🇺 Русский PDF</a>
-        <a class="btn secondary" href="BTC_White_Whitepaper_v1.0_ES.pdf" target="_blank">🇪🇸 Español PDF</a>
-        <a class="btn secondary" href="BTC_White_Whitepaper_v1.0_ZH.pdf" target="_blank">🇨🇳 中文 PDF</a>
-        <a class="btn secondary" href="BTC_White_Whitepaper_v1.0_KO.pdf" target="_blank">🇰🇷 한국어 PDF</a>
-        <a class="btn secondary" href="BTC_White_Whitepaper_v1.0_HI.pdf" target="_blank">🇮🇳 हिन्दी PDF</a>
-      </div>
-    </section>
-
-    <section id="roadmap" class="section reveal">
-      <p class="eyebrow" data-i18n="roadmap_eyebrow">Roadmap</p><h2 data-i18n="roadmap_title">From brand foundation to BTCWH Pay.</h2>
-      <div class="timeline">
-        <div><b data-i18n="phase1">Phase 1</b><span data-i18n="phase1_text">Brand, logo, domain, website, Whitepaper.</span></div>
-        <div><b data-i18n="phase2">Phase 2</b><span data-i18n="phase2_text">Token creation, initial liquidity, Solana ecosystem presence.</span></div>
-        <div><b data-i18n="phase3">Phase 3</b><span data-i18n="phase3_text">DEX trading, market visibility, OTC distribution channels.</span></div>
-        <div><b data-i18n="phase4">Phase 4</b><span data-i18n="phase4_text">Partnerships, BTCWH Pay research, global ecosystem expansion.</span></div>
-      </div>
-    </section>
-
-    <section id="faq" class="section faq reveal">
-      <p class="eyebrow">FAQ</p><h2 data-i18n="faq_title">Common questions.</h2>
-      <details open><summary data-i18n="faq1_q">What is BTCWH?</summary><p data-i18n="faq1_a">BTCWH is the ticker for BTC White, a digital asset project with a long-term payment ecosystem vision.</p></details>
-      <details><summary data-i18n="faq2_q">What is the official website?</summary><p data-i18n="faq2_a">The official website is btcwh.io.</p></details>
-      <details><summary data-i18n="faq3_q">Where can I verify BTCWH?</summary><p data-i18n="faq3_a">Use the official token address on Solscan and always verify links from btcwh.io.</p></details>
-      <details><summary data-i18n="faq4_q">Which blockchain does BTCWH use?</summary><p data-i18n="faq4_a">BTCWH is issued on the Solana network.</p></details>
-    </section>
-  </main>
-  <footer><div class="brand"><img src="btcwh-logo.jpeg" alt="BTCWH" /><span>BTC WHITE</span></div><p data-i18n="footer">© 2026 BTC White. The Time Has Come. Now BTCWH.</p></footer>
-  <script src="script.js?v=20260629"></script>
+    <div class="heroLogo"><div class="orb"></div><img src="btcwh-coin.png" alt="BTC White coin"></div>
+  </section>
+  <section class="quickStats" id="quickStats"></section>
+  <div id="content"></div>
+</main>
+<footer class="footer">
+  <div><img src="favicon.png" alt="BTCWH"><strong>BTC WHITE</strong><small>BTCWH • btcwh.io</small></div>
+  <p>© 2026 BTC White. The Time Has Come. For a New Generation.</p>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
