@@ -1,0 +1,439 @@
+{
+  "code": "zh",
+  "name": "中文",
+  "direction": "ltr",
+  "nav": {
+    "about": "关于",
+    "market": "市场",
+    "vision": "愿景",
+    "principles": "原则",
+    "ecosystem": "生态系统",
+    "technology": "技术",
+    "tokenomics": "代币经济",
+    "presale": "预售",
+    "roadmap": "路线图",
+    "pay": "BTCWH Pay",
+    "security": "安全",
+    "governance": "治理",
+    "community": "社区",
+    "whitepaper": "白皮书",
+    "links": "链接",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "eyebrow": "BTCWH • SOLANA • 全球支付愿景",
+    "title": "时机已到。现在是 BTCWH。",
+    "lead": "BTC White 是一个长期区块链生态系统，围绕固定供应的数字资产、透明代币经济、负责任开发和实用支付价值而建立。",
+    "primary": "了解 BTCWH",
+    "secondary": "白皮书",
+    "notice": "项目官方网站 • btcwh.io"
+  },
+  "meta": {
+    "supply": "最大供应量",
+    "network": "区块链",
+    "presale": "Founders Presale",
+    "minimum": "最低参与",
+    "contract": "代币地址",
+    "version": "Website v3.0"
+  },
+  "sections": [
+    {
+      "id": "highlights",
+      "title": "核心信息",
+      "kicker": "BTC White 概览",
+      "paras": [
+        "BTC White 是围绕 BTCWH 代币构建透明、安全、可持续数字生态系统的区块链项目。",
+        "项目结合固定最大供应量、负责任治理、实际用途、全球可访问性和长期支付愿景。"
+      ],
+      "cards": [
+        [
+          "项目",
+          "BTC White"
+        ],
+        [
+          "代币",
+          "BTCWH"
+        ],
+        [
+          "区块链",
+          "Solana"
+        ],
+        [
+          "最大供应量",
+          "21,000,000 BTCWH"
+        ],
+        [
+          "Founders Presale 分配",
+          "1,050,000 BTCWH"
+        ],
+        [
+          "官方网站",
+          "btcwh.io"
+        ]
+      ]
+    },
+    {
+      "id": "disclaimer",
+      "title": "法律声明",
+      "kicker": "仅供信息参考",
+      "paras": [
+        "本网站和 BTC White 文档仅供信息参考，不构成金融、投资、法律、会计或税务建议。",
+        "参与 BTCWH 可能涉及市场、技术、监管和运营风险。用户应独立判断，并在需要时咨询专业顾问。",
+        "BTC White 不保证代币价值、流动性、交易所上线、盈利能力或未来市场表现。官方信息仅应通过 btcwh.io 和已验证渠道确认。"
+      ]
+    },
+    {
+      "id": "founder",
+      "title": "创始人致辞",
+      "kicker": "一步一步建设未来",
+      "paras": [
+        "BTC White 以长期愿景创建，而不是短期目标。目标不是再发行一个数字资产，而是建设一个由技术、透明度和负责任发展创造长期价值的生态系统。",
+        "信任不能只靠承诺建立，而要通过持续执行、公开沟通、谨慎规划和尊重社区来赢得。",
+        "欢迎来到 BTC White。BTCWH 的时代已经到来。"
+      ]
+    },
+    {
+      "id": "summary",
+      "title": "执行摘要",
+      "kicker": "BTCWH 代币",
+      "paras": [
+        "BTCWH 是 BTC White 生态系统的原生数字资产，旨在支持未来生态服务、支付计划和战略发展。",
+        "该代币最大供应量永久固定为 21,000,000 BTCWH。项目围绕 Solana 基础设施、实际用途和负责任增长构建。",
+        "BTC White 不打算只停留为单一代币，而是希望发展支付解决方案、数字服务、商户集成、战略伙伴、开发者参与和未来产品。"
+      ]
+    },
+    {
+      "id": "market",
+      "title": "市场分析",
+      "kicker": "变化中的数字经济",
+      "paras": [
+        "区块链已从实验概念发展为全球技术运动。数字资产被用于支付、DeFi、代币化、游戏、数字身份和企业基础设施。",
+        "采用仍面临技术复杂性、碎片化体验、监管不确定性、网络安全风险和许多项目缺乏真实用途等挑战。",
+        "BTC White 通过透明治理、实际应用、可预测代币经济、安全基础设施和长期用途来形成差异化。"
+      ]
+    },
+    {
+      "id": "vision",
+      "title": "愿景与使命",
+      "kicker": "创造实用数字价值",
+      "paras": [
+        "BTC White 的愿景是让区块链成为日常数字生活中值得信任的一部分。",
+        "使命是发展透明、安全的区块链生态系统，鼓励实用数字互动，同时保持诚信、负责任创新和长期规划。",
+        "长期目标包括安全区块链开发、支付相关创新、战略合作、生态功能扩展和更强的社区参与。"
+      ]
+    },
+    {
+      "id": "principles",
+      "title": "核心原则",
+      "kicker": "BTC White 的方向",
+      "paras": [
+        "BTC White 以原则为导向，而不是短期市场趋势。这些原则定义生态系统应如何发展。"
+      ],
+      "bullets": [
+        "通过清晰官方沟通实现透明。",
+        "负责任开发：质量、安全和长期影响优先于速度。",
+        "关注解决真实问题的实际用途。",
+        "保护智能合约、基础设施、运营和用户。",
+        "固定供应 21,000,000 BTCWH。",
+        "社区、教育、协作和全球可访问性。",
+        "改善可用性、效率、安全或生态价值的创新。"
+      ]
+    },
+    {
+      "id": "ecosystem",
+      "title": "生态系统架构",
+      "kicker": "不仅仅是代币",
+      "paras": [
+        "BTC White 被设计为不断增长的数字生态系统基础，而不是独立数字资产。BTCWH 是连接未来组件的核心实用元素。",
+        "核心层包括 BTCWH 代币、Solana 基础设施、钱包、智能合约、安全系统、社区、支付工具、商户、未来产品和战略伙伴。",
+        "每个未来组件都应提升实际用途，并加强生态系统的价值和功能。"
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "技术与区块链基础设施",
+      "kicker": "建立在 Solana 之上",
+      "paras": [
+        "BTC White 计划基于 Solana，因为其吞吐量高、确认快、费用低、开发生态成熟、钱包兼容性强并具有全球采用基础。",
+        "技术重点包括可扩展性、可靠性、安全智能合约、钱包兼容、监控系统、运营安全和持续改进。",
+        "技术原则是：安全先于扩张，可扩展性先于大规模采用，可靠性先于快速部署，简单性先于不必要复杂性。"
+      ]
+    },
+    {
+      "id": "tokenomics",
+      "title": "代币经济",
+      "kicker": "透明经济模型",
+      "paras": [
+        "代币经济定义 BTC White 的经济基础。BTCWH 最大供应量永久固定为 21,000,000 枚，并不计划额外发行。",
+        "分配模型围绕透明度、可持续性、负责任资金管理和长期生态用途设计。"
+      ],
+      "table": [
+        [
+          "流动性",
+          "30%",
+          "6,300,000 BTCWH"
+        ],
+        [
+          "战略储备",
+          "25%",
+          "5,250,000 BTCWH"
+        ],
+        [
+          "营销与增长",
+          "15%",
+          "3,150,000 BTCWH"
+        ],
+        [
+          "团队与开发",
+          "15%",
+          "3,150,000 BTCWH"
+        ],
+        [
+          "生态发展",
+          "10%",
+          "2,100,000 BTCWH"
+        ],
+        [
+          "Founders Presale",
+          "5%",
+          "1,050,000 BTCWH"
+        ]
+      ]
+    },
+    {
+      "id": "presale",
+      "title": "Founders Presale",
+      "kicker": "早期生态参与",
+      "paras": [
+        "Founders Presale 是计划中为合格参与者提供的首次早期参与机会。",
+        "预售分配为 1,050,000 BTCWH，占最大供应量的 5%。计划最低参与金额为 10 USDT。",
+        "官方支付方式、钱包地址和参与说明只会通过 btcwh.io 和已验证 BTC White 渠道发布。BTC White 永远不会索要私钥、助记词或钱包密码。"
+      ],
+      "cards": [
+        [
+          "分配",
+          "1,050,000 BTCWH"
+        ],
+        [
+          "供应占比",
+          "5%"
+        ],
+        [
+          "最低参与",
+          "10 USDT"
+        ],
+        [
+          "网络",
+          "Solana"
+        ]
+      ]
+    },
+    {
+      "id": "roadmap",
+      "title": "战略路线图",
+      "kicker": "负责任执行",
+      "paras": [
+        "BTC White 路线图是战略框架，而不是固定时间表。每个阶段都旨在加强技术基础、生态能力和社区。"
+      ],
+      "timeline": [
+        [
+          "阶段 I — 基础",
+          "品牌、视觉识别、官方域名、网站、基础设施保护、白皮书和初始沟通渠道。"
+        ],
+        [
+          "阶段 II — 基础设施与社区",
+          "社区扩展、钱包兼容准备、文档改进、技术测试和安全改进。"
+        ],
+        [
+          "阶段 III — Founders Presale",
+          "初始分配框架、参与者支持、运营准备、透明报告和生态资金。"
+        ],
+        [
+          "阶段 IV — 代币发布",
+          "智能合约部署、代币生成、流动性准备、DEX 可用性和监控。"
+        ],
+        [
+          "阶段 V — 生态扩展",
+          "商户集成、数字服务、开发者资源、钱包集成、合作伙伴和社区计划。"
+        ],
+        [
+          "阶段 VI — BTCWH Pay",
+          "支付基础设施、商户工具、数字商务、服务支付和未来支付应用。"
+        ],
+        [
+          "阶段 VII — 全球扩展",
+          "合作伙伴、教育、社区本地化、商业合作和国际增长。"
+        ],
+        [
+          "阶段 VIII — 长期演进",
+          "更多生态服务、扩展支付能力、基础设施优化和更广泛合作。"
+        ]
+      ]
+    },
+    {
+      "id": "pay",
+      "title": "BTCWH Pay",
+      "kicker": "长期支付愿景",
+      "paras": [
+        "BTCWH Pay 代表 BTC White 生态系统的长期支付方向，未来将围绕 BTCWH 构建支付基础设施。",
+        "潜在用途包括数字商务、商户解决方案、服务支付、符合法律要求的跨境交易以及未来生态产品中的支付。",
+        "成功的支付解决方案必须优先考虑直观界面、高效交易处理、钱包兼容、透明信息和可靠基础设施。"
+      ]
+    },
+    {
+      "id": "security",
+      "title": "安全与信任框架",
+      "kicker": "安全是持续过程",
+      "paras": [
+        "安全不是单一功能或里程碑。BTC White 将安全视为贯穿所有发展阶段的持续过程。",
+        "项目计划采用多层安全实践，包括基础设施保护、运营监控、受控部署、访问管理、事件响应规划和持续技术审查。",
+        "用户应验证官方信息，保护私钥和助记词，避免非官方渠道，并警惕钓鱼和冒充行为。"
+      ]
+    },
+    {
+      "id": "governance",
+      "title": "治理与资金管理",
+      "kicker": "负责任管理",
+      "paras": [
+        "可持续区块链生态系统需要在创新、安全、透明和长期规划之间取得平衡的治理。",
+        "BTC White 治理旨在促进负责任领导、问责、运营纪律、财务责任和与项目愿景一致。",
+        "资金资源可用于软件开发、基础设施、网络安全、生态扩展、战略合作、社区计划和运营连续性。"
+      ]
+    },
+    {
+      "id": "community",
+      "title": "社区与全球增长",
+      "kicker": "技术连接系统，社区连接人",
+      "paras": [
+        "BTC White 将社区视为生态发展的积极参与者，而不仅仅是代币持有人。",
+        "社区成员可通过反馈、负责任参与、教育、测试、问题报告和生态宣传做出贡献。",
+        "BTC White 具有国际视角，并计划在可行时通过多语言沟通和文档提高信息可访问性。"
+      ]
+    },
+    {
+      "id": "risk",
+      "title": "风险因素",
+      "kicker": "透明风险披露",
+      "paras": [
+        "参与区块链生态系统存在不确定性。数字资产市场可能因流动性、情绪、宏观经济、技术、监管和市场结构而大幅波动。",
+        "技术、智能合约、网络安全、监管、运营、采用、第三方和不可抗力风险都可能影响生态发展。",
+        "每位参与者都应对自己的决定负责，参与应建立在充分了解和独立判断基础上。"
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "法律与监管考虑",
+      "kicker": "负责任合规",
+      "paras": [
+        "区块链监管在不同司法管辖区持续发展。BTC White 打算在尊重适用法律与监管框架的基础上发展生态系统。",
+        "本网站不构成证券发行、投资建议或财务回报承诺。BTCWH 相关产品或服务的可用性可能因地区而异。",
+        "BTC White 名称、标志、网站内容、文档和原创材料旨在受到适用知识产权法律保护。"
+      ]
+    },
+    {
+      "id": "whitepaper",
+      "title": "官方文件",
+      "kicker": "白皮书与验证材料",
+      "docs": true,
+      "paras": [
+        "BTC White 白皮书包含项目使命、代币经济、路线图、储备原则、预售框架、生态愿景、安全事项和法律披露。",
+        "请仅从 btcwh.io 或已验证 BTC White 渠道下载文件。"
+      ]
+    },
+    {
+      "id": "links",
+      "title": "官方链接与透明度",
+      "kicker": "行动前请验证",
+      "links": true,
+      "paras": [
+        "官方链接可帮助用户验证信息，避免假网站、冒充者和不安全合约。任何交易前都应确认代币地址和官方来源。"
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "kicker": "常见问题",
+      "paras": [],
+      "faq": [
+        [
+          "什么是 BTCWH？",
+          "BTCWH 是 BTC White 的代币符号，项目围绕透明度、实际用途和长期生态发展而设计。"
+        ],
+        [
+          "最大供应量是多少？",
+          "最大供应量永久固定为 21,000,000 BTCWH。"
+        ],
+        [
+          "BTC White 使用哪个区块链？",
+          "BTC White 围绕 Solana 生态系统规划。"
+        ],
+        [
+          "什么是 Founders Presale？",
+          "Founders Presale 是计划的早期分配，数量为 1,050,000 BTCWH，占最大供应量 5%。"
+        ],
+        [
+          "BTCWH 是否保证升值？",
+          "不。BTC White 不保证代币价值、流动性、交易所上线、盈利能力或市场表现。"
+        ]
+      ]
+    }
+  ],
+  "brand": {
+    "name": "BTC WHITE",
+    "ticker": "BTCWH",
+    "tagline": "THE TIME HAS COME. FOR A NEW GENERATION."
+  },
+  "global": {
+    "tableHeaders": {
+      "category": "类别",
+      "share": "比例",
+      "tokens": "代币"
+    },
+    "docTitle": "下载白皮书",
+    "official": "官方"
+  },
+  "officialLinks": [
+    {
+      "label": "Website",
+      "url": "https://btcwh.io"
+    },
+    {
+      "label": "Solscan",
+      "url": "https://solscan.io/token/GTUy76j5ALxwL9m6tMK9sNdqqZsfqiSgD2Zjo47eJCTA"
+    },
+    {
+      "label": "DexScreener",
+      "url": "https://dexscreener.com/solana/cubp7r5vc6pgkvdbdqgy8znjsemsfy494sw1nx8yrfrm"
+    },
+    {
+      "label": "Raydium",
+      "url": "https://raydium.io/swap/?inputMint=sol&outputMint=GTUy76j5ALxwL9m6tMK9sNdqqZsfqiSgD2Zjo47eJCTA"
+    }
+  ],
+  "docs": [
+    {
+      "label": "English PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_Final_EN.pdf"
+    },
+    {
+      "label": "Русский PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_RU.pdf"
+    },
+    {
+      "label": "Español PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_ES.pdf"
+    },
+    {
+      "label": "中文 PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_ZH.pdf"
+    },
+    {
+      "label": "한국어 PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_KO.pdf"
+    },
+    {
+      "label": "हिन्दी PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_HI.pdf"
+    }
+  ]
+}

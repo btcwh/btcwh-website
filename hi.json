@@ -1,0 +1,439 @@
+{
+  "code": "hi",
+  "name": "हिन्दी",
+  "direction": "ltr",
+  "nav": {
+    "about": "परिचय",
+    "market": "बाज़ार",
+    "vision": "दृष्टि",
+    "principles": "सिद्धांत",
+    "ecosystem": "इकोसिस्टम",
+    "technology": "तकनीक",
+    "tokenomics": "टोकनोमिक्स",
+    "presale": "Presale",
+    "roadmap": "रोडमैप",
+    "pay": "BTCWH Pay",
+    "security": "सुरक्षा",
+    "governance": "गवर्नेंस",
+    "community": "समुदाय",
+    "whitepaper": "Whitepaper",
+    "links": "लिंक",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "eyebrow": "BTCWH • SOLANA • वैश्विक भुगतान दृष्टि",
+    "title": "समय आ गया है। अब BTCWH।",
+    "lead": "BTC White एक दीर्घकालिक blockchain ecosystem है, जो fixed-supply digital asset, पारदर्शी tokenomics, जिम्मेदार विकास और व्यावहारिक payment utility पर आधारित है।",
+    "primary": "BTCWH देखें",
+    "secondary": "Whitepaper",
+    "notice": "आधिकारिक परियोजना वेबसाइट • btcwh.io"
+  },
+  "meta": {
+    "supply": "अधिकतम सप्लाई",
+    "network": "Blockchain",
+    "presale": "Founders Presale",
+    "minimum": "न्यूनतम भागीदारी",
+    "contract": "Token Mint",
+    "version": "Website v3.0"
+  },
+  "sections": [
+    {
+      "id": "highlights",
+      "title": "मुख्य जानकारी",
+      "kicker": "BTC White एक नज़र में",
+      "paras": [
+        "BTC White एक blockchain project है जिसका उद्देश्य BTCWH token के आसपास पारदर्शी, सुरक्षित और sustainable digital ecosystem बनाना है।",
+        "Project fixed maximum supply, responsible governance, practical utility, global accessibility और long-term payment vision को जोड़ता है।"
+      ],
+      "cards": [
+        [
+          "Project",
+          "BTC White"
+        ],
+        [
+          "Token",
+          "BTCWH"
+        ],
+        [
+          "Blockchain",
+          "Solana"
+        ],
+        [
+          "Maximum Supply",
+          "21,000,000 BTCWH"
+        ],
+        [
+          "Founders Presale Allocation",
+          "1,050,000 BTCWH"
+        ],
+        [
+          "Official Website",
+          "btcwh.io"
+        ]
+      ]
+    },
+    {
+      "id": "disclaimer",
+      "title": "कानूनी अस्वीकरण",
+      "kicker": "केवल जानकारी के लिए",
+      "paras": [
+        "यह website और BTC White documentation केवल जानकारी के लिए है। यह financial, investment, legal, accounting या tax advice नहीं है।",
+        "BTCWH में भागीदारी market, technology, regulation और operational risks से जुड़ी हो सकती है। Users को independent decision लेना चाहिए।",
+        "BTC White token value, liquidity, listings, profitability या future market performance की गारंटी नहीं देता। Official information केवल btcwh.io और verified channels से जांचें।"
+      ]
+    },
+    {
+      "id": "founder",
+      "title": "Founder का संदेश",
+      "kicker": "भविष्य कदम-दर-कदम बनाया जाता है",
+      "paras": [
+        "BTC White short-term objective नहीं बल्कि long-term vision के साथ बनाया गया है। लक्ष्य सिर्फ एक और digital asset लाना नहीं, बल्कि technology, transparency और responsible development से sustainable ecosystem बनाना है।",
+        "Trust केवल promises से नहीं बनता। यह consistent execution, open communication, careful planning और community respect से कमाया जाता है।",
+        "BTC White में आपका स्वागत है। BTCWH का समय आ गया है।"
+      ]
+    },
+    {
+      "id": "summary",
+      "title": "Executive Summary",
+      "kicker": "BTCWH Token",
+      "paras": [
+        "BTCWH, BTC White ecosystem का native digital asset है। इसका उद्देश्य future ecosystem services, payment initiatives और strategic development को support करना है।",
+        "Token की maximum supply हमेशा के लिए 21,000,000 BTCWH पर fixed है। Project Solana infrastructure, practical utility और responsible growth पर आधारित है।",
+        "BTC White standalone token नहीं रहना चाहता। Project payment solutions, digital services, merchant integrations, partnerships, developer participation और future products विकसित करना चाहता है।"
+      ]
+    },
+    {
+      "id": "market",
+      "title": "Market Analysis",
+      "kicker": "बदलती digital economy",
+      "paras": [
+        "Blockchain experimental concept से global technology movement बन गया है। Digital assets payments, DeFi, tokenization, gaming, digital identity और enterprise infrastructure में उपयोग हो रहे हैं।",
+        "Adoption अभी भी technical complexity, fragmented user experience, regulatory uncertainty, cybersecurity risks और कई projects में real utility की कमी से जूझता है।",
+        "BTC White transparent governance, practical applications, predictable tokenomics, security-focused infrastructure और long-term utility पर focus करता है।"
+      ]
+    },
+    {
+      "id": "vision",
+      "title": "Vision & Mission",
+      "kicker": "Practical digital value बनाना",
+      "paras": [
+        "BTC White की vision है कि blockchain everyday digital life का trusted हिस्सा बने।",
+        "Mission है transparent और secure blockchain ecosystem विकसित करना जो practical digital interactions को बढ़ावा दे और integrity, responsible innovation तथा long-term planning बनाए रखे।",
+        "Long-term objectives में secure development, payment innovation, strategic partnerships, ecosystem functionality और community participation शामिल हैं।"
+      ]
+    },
+    {
+      "id": "principles",
+      "title": "Core Principles",
+      "kicker": "BTC White को दिशा देने वाले सिद्धांत",
+      "paras": [
+        "BTC White short-term market trends नहीं, बल्कि principles से guided है। ये principles ecosystem के विकास को परिभाषित करते हैं।"
+      ],
+      "bullets": [
+        "Clear official communication के माध्यम से transparency.",
+        "Speed से पहले quality, security और long-term impact के साथ responsible development.",
+        "Real problems को solve करने वाली practical utility.",
+        "Smart contracts, infrastructure, operations और users की security.",
+        "21,000,000 BTCWH की fixed supply.",
+        "Community, education, collaboration और global accessibility.",
+        "Usability, efficiency, security या ecosystem value बढ़ाने वाली innovation."
+      ]
+    },
+    {
+      "id": "ecosystem",
+      "title": "Ecosystem Architecture",
+      "kicker": "सिर्फ token नहीं",
+      "paras": [
+        "BTC White को standalone digital asset नहीं बल्कि growing digital ecosystem की foundation के रूप में design किया गया है। BTCWH future components को जोड़ने वाला core utility element है।",
+        "Core layers में BTCWH token, Solana infrastructure, wallets, smart contracts, security systems, community, payment tools, merchants, future products और strategic partners शामिल हैं।",
+        "हर future component को practical usefulness बढ़ानी चाहिए और ecosystem की value तथा functionality मजबूत करनी चाहिए।"
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "Technology & Blockchain Infrastructure",
+      "kicker": "Solana पर आधारित",
+      "paras": [
+        "BTC White Solana पर planned है क्योंकि यह high throughput, fast confirmations, low fees, mature developer ecosystem, wallet compatibility और global adoption प्रदान करता है।",
+        "Technology priorities में scalability, reliability, secure smart contracts, wallet compatibility, monitoring systems, operational security और continuous improvement शामिल हैं।",
+        "Technical principles हैं: expansion से पहले security, mass adoption से पहले scalability, rapid deployment से पहले reliability और unnecessary complexity से पहले simplicity।"
+      ]
+    },
+    {
+      "id": "tokenomics",
+      "title": "Tokenomics",
+      "kicker": "Transparent economics",
+      "paras": [
+        "Tokenomics BTC White की economic foundation परिभाषित करता है। BTCWH की maximum supply हमेशा के लिए 21,000,000 tokens पर fixed है और additional tokens बनाने की योजना नहीं है।",
+        "Allocation model transparency, sustainability, responsible treasury management और long-term ecosystem utility पर आधारित है।"
+      ],
+      "table": [
+        [
+          "Liquidity",
+          "30%",
+          "6,300,000 BTCWH"
+        ],
+        [
+          "Strategic Reserve",
+          "25%",
+          "5,250,000 BTCWH"
+        ],
+        [
+          "Marketing & Growth",
+          "15%",
+          "3,150,000 BTCWH"
+        ],
+        [
+          "Team & Development",
+          "15%",
+          "3,150,000 BTCWH"
+        ],
+        [
+          "Ecosystem Development",
+          "10%",
+          "2,100,000 BTCWH"
+        ],
+        [
+          "Founders Presale",
+          "5%",
+          "1,050,000 BTCWH"
+        ]
+      ]
+    },
+    {
+      "id": "presale",
+      "title": "Founders Presale",
+      "kicker": "Early ecosystem participation",
+      "paras": [
+        "Founders Presale eligible participants के लिए broader public availability से पहले BTCWH प्राप्त करने का पहला planned opportunity है।",
+        "Reserved allocation 1,050,000 BTCWH है, जो maximum supply का 5% है। Planned minimum participation 10 USDT है।",
+        "Official payment methods, wallet addresses और instructions केवल btcwh.io और verified BTC White channels पर प्रकाशित होंगे। BTC White कभी private keys, seed phrases या wallet passwords नहीं मांगता।"
+      ],
+      "cards": [
+        [
+          "Allocation",
+          "1,050,000 BTCWH"
+        ],
+        [
+          "Supply Share",
+          "5%"
+        ],
+        [
+          "Minimum Participation",
+          "10 USDT"
+        ],
+        [
+          "Network",
+          "Solana"
+        ]
+      ]
+    },
+    {
+      "id": "roadmap",
+      "title": "Strategic Roadmap",
+      "kicker": "Responsible execution",
+      "paras": [
+        "BTC White roadmap एक strategic framework है, fixed schedule नहीं। हर phase technology foundation, ecosystem capability और community को मजबूत करता है।"
+      ],
+      "timeline": [
+        [
+          "Phase I — Foundation",
+          "Brand identity, official domain, website, infrastructure protection, Whitepaper और initial communication channels."
+        ],
+        [
+          "Phase II — Infrastructure & Community",
+          "Community expansion, wallet compatibility preparation, documentation improvements, technical testing और security improvements."
+        ],
+        [
+          "Phase III — Founders Presale",
+          "Initial distribution framework, participant support, operational readiness, transparency reporting और ecosystem funding."
+        ],
+        [
+          "Phase IV — Token Launch",
+          "Smart contract deployment, token generation, liquidity preparation, DEX availability और monitoring."
+        ],
+        [
+          "Phase V — Ecosystem Expansion",
+          "Merchant integrations, digital services, developer resources, wallet integrations, partnerships और community initiatives."
+        ],
+        [
+          "Phase VI — BTCWH Pay",
+          "Payment infrastructure, merchant tools, digital commerce, service payments और future payment applications."
+        ],
+        [
+          "Phase VII — Global Expansion",
+          "Partnerships, education, community localization, business collaboration और international growth."
+        ],
+        [
+          "Phase VIII — Long-Term Evolution",
+          "Additional ecosystem services, expanded payment capabilities, infrastructure optimization और broader partnerships."
+        ]
+      ]
+    },
+    {
+      "id": "pay",
+      "title": "BTCWH Pay",
+      "kicker": "Long-term payment vision",
+      "paras": [
+        "BTCWH Pay, BTC White ecosystem की long-term payment direction है और BTCWH के आसपास future payment infrastructure के रूप में सोचा गया है।",
+        "Potential use cases में digital commerce, merchant solutions, service payments, legally permitted cross-border transactions और future ecosystem products में payments शामिल हो सकते हैं।",
+        "Successful payment solutions को intuitive interface, efficient transaction processing, wallet compatibility, transparent information और reliable infrastructure को प्राथमिकता देनी चाहिए।"
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Security & Trust Framework",
+      "kicker": "Security लगातार चलने वाली प्रक्रिया है",
+      "paras": [
+        "Security कोई single feature या milestone नहीं है। BTC White इसे हर development stage में integrated ongoing process मानता है।",
+        "Project layered security practices अपनाने का इरादा रखता है: infrastructure protection, operational monitoring, controlled deployment, access management, incident planning और continuous technical review।",
+        "Users को official information verify करनी चाहिए, private keys और recovery phrases बचानी चाहिए, unofficial channels से बचना चाहिए और phishing से सावधान रहना चाहिए।"
+      ]
+    },
+    {
+      "id": "governance",
+      "title": "Governance & Treasury Management",
+      "kicker": "Responsible stewardship",
+      "paras": [
+        "Sustainable blockchain ecosystems को innovation, security, transparency और long-term planning का balance रखने वाली governance चाहिए।",
+        "BTC White governance responsible leadership, accountability, operational discipline, financial responsibility और project vision alignment को promote करती है।",
+        "Treasury resources software development, infrastructure, cybersecurity, ecosystem expansion, partnerships, community initiatives और operational continuity को support कर सकते हैं।"
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Community & Global Growth",
+      "kicker": "Technology systems को जोड़ती है, community लोगों को",
+      "paras": [
+        "BTC White community को ecosystem development का active participant मानता है, केवल token holders का समूह नहीं।",
+        "Community members feedback, responsible participation, education, testing, issue reporting और ecosystem awareness के माध्यम से योगदान दे सकते हैं।",
+        "BTC White international perspective के साथ design किया गया है और practical होने पर multilingual communication और documentation देना चाहता है।"
+      ]
+    },
+    {
+      "id": "risk",
+      "title": "Risk Factors",
+      "kicker": "Transparent risk disclosure",
+      "paras": [
+        "Blockchain ecosystems में participation uncertainty से जुड़ी होती है। Digital asset markets liquidity, sentiment, macro conditions, technology, regulation और market structure के कारण fluctuate कर सकते हैं।",
+        "Technology, smart contract, cybersecurity, regulatory, operational, adoption, third-party और force majeure risks ecosystem development को प्रभावित कर सकते हैं।",
+        "हर participant independent decisions के लिए responsible है। Participation informed judgment और risk awareness पर आधारित होनी चाहिए।"
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal & Regulatory Considerations",
+      "kicker": "Responsible compliance",
+      "paras": [
+        "Blockchain regulation अलग-अलग jurisdictions में लगातार विकसित हो रहा है। BTC White applicable legal और regulatory frameworks का सम्मान करते हुए ecosystem विकसित करना चाहता है।",
+        "यह website securities offer, investment advice या financial return promise नहीं है। BTCWH-related products या services की availability jurisdiction के अनुसार बदल सकती है।",
+        "BTC White name, logo, website content, documentation और original materials applicable intellectual property laws द्वारा protected होने के लिए intended हैं।"
+      ]
+    },
+    {
+      "id": "whitepaper",
+      "title": "Official Documents",
+      "kicker": "Whitepaper और verified materials",
+      "docs": true,
+      "paras": [
+        "BTC White Whitepaper में project mission, tokenomics, roadmap, reserve principles, presale framework, ecosystem vision, security considerations और legal disclosures शामिल हैं।",
+        "Documents केवल btcwh.io या verified BTC White channels से ही download करें।"
+      ]
+    },
+    {
+      "id": "links",
+      "title": "Official Links & Transparency",
+      "kicker": "Action से पहले verify करें",
+      "links": true,
+      "paras": [
+        "Official links users को information verify करने और fake websites, impersonators तथा unsafe contracts से बचने में मदद करते हैं। किसी भी transaction से पहले token address और official sources confirm करें।"
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "kicker": "सामान्य प्रश्न",
+      "paras": [],
+      "faq": [
+        [
+          "BTCWH क्या है?",
+          "BTCWH, BTC White का token symbol है — transparency, practical utility और long-term ecosystem development पर आधारित digital asset project."
+        ],
+        [
+          "Maximum supply कितनी है?",
+          "Maximum supply हमेशा के लिए 21,000,000 BTCWH है।"
+        ],
+        [
+          "BTC White कौन-सा blockchain use करता है?",
+          "BTC White Solana ecosystem के आसपास planned है।"
+        ],
+        [
+          "Founders Presale क्या है?",
+          "Founders Presale 1,050,000 BTCWH की planned early allocation है, जो maximum supply का 5% है।"
+        ],
+        [
+          "क्या BTCWH की value बढ़ने की guarantee है?",
+          "नहीं। BTC White token value, liquidity, listings, profitability या market performance की guarantee नहीं देता।"
+        ]
+      ]
+    }
+  ],
+  "brand": {
+    "name": "BTC WHITE",
+    "ticker": "BTCWH",
+    "tagline": "THE TIME HAS COME. FOR A NEW GENERATION."
+  },
+  "global": {
+    "tableHeaders": {
+      "category": "श्रेणी",
+      "share": "हिस्सा",
+      "tokens": "Tokens"
+    },
+    "docTitle": "Whitepaper डाउनलोड करें",
+    "official": "Official"
+  },
+  "officialLinks": [
+    {
+      "label": "Website",
+      "url": "https://btcwh.io"
+    },
+    {
+      "label": "Solscan",
+      "url": "https://solscan.io/token/GTUy76j5ALxwL9m6tMK9sNdqqZsfqiSgD2Zjo47eJCTA"
+    },
+    {
+      "label": "DexScreener",
+      "url": "https://dexscreener.com/solana/cubp7r5vc6pgkvdbdqgy8znjsemsfy494sw1nx8yrfrm"
+    },
+    {
+      "label": "Raydium",
+      "url": "https://raydium.io/swap/?inputMint=sol&outputMint=GTUy76j5ALxwL9m6tMK9sNdqqZsfqiSgD2Zjo47eJCTA"
+    }
+  ],
+  "docs": [
+    {
+      "label": "English PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_Final_EN.pdf"
+    },
+    {
+      "label": "Русский PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_RU.pdf"
+    },
+    {
+      "label": "Español PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_ES.pdf"
+    },
+    {
+      "label": "中文 PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_ZH.pdf"
+    },
+    {
+      "label": "한국어 PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_KO.pdf"
+    },
+    {
+      "label": "हिन्दी PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_HI.pdf"
+    }
+  ]
+}

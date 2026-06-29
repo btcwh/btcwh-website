@@ -1,0 +1,438 @@
+{
+  "code": "en",
+  "name": "English",
+  "direction": "ltr",
+  "nav": {
+    "about": "About",
+    "market": "Market",
+    "vision": "Vision",
+    "principles": "Principles",
+    "ecosystem": "Ecosystem",
+    "technology": "Technology",
+    "tokenomics": "Tokenomics",
+    "presale": "Presale",
+    "roadmap": "Roadmap",
+    "pay": "BTCWH Pay",
+    "security": "Security",
+    "governance": "Governance",
+    "community": "Community",
+    "whitepaper": "Whitepaper",
+    "links": "Links",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "eyebrow": "BTCWH • SOLANA • GLOBAL PAYMENT VISION",
+    "title": "The Time Has Come. Now BTCWH.",
+    "lead": "BTC White is a long-term blockchain ecosystem built around a fixed-supply digital asset, transparent tokenomics, responsible development and practical payment utility.",
+    "primary": "Explore BTCWH",
+    "secondary": "Whitepaper",
+    "notice": "Official project website • btcwh.io"
+  },
+  "meta": {
+    "supply": "Maximum Supply",
+    "network": "Blockchain",
+    "presale": "Founders Presale",
+    "minimum": "Minimum Participation",
+    "contract": "Token Mint",
+    "version": "Website v3.0"
+  },
+  "sections": [
+    {
+      "id": "highlights",
+      "title": "Executive Highlights",
+      "kicker": "BTC White at a Glance",
+      "paras": [
+        "BTC White is a blockchain project designed to build a transparent, secure and sustainable digital ecosystem around the BTCWH token.",
+        "The project combines a fixed maximum supply, responsible governance, practical utility, global accessibility and a long-term payment vision."
+      ],
+      "cards": [
+        [
+          "Project",
+          "BTC White"
+        ],
+        [
+          "Token",
+          "BTCWH"
+        ],
+        [
+          "Blockchain",
+          "Solana"
+        ],
+        [
+          "Maximum Supply",
+          "21,000,000 BTCWH"
+        ],
+        [
+          "Founders Presale Allocation",
+          "1,050,000 BTCWH"
+        ],
+        [
+          "Official Website",
+          "btcwh.io"
+        ]
+      ]
+    },
+    {
+      "id": "disclaimer",
+      "title": "Legal Disclaimer",
+      "kicker": "Information Only",
+      "paras": [
+        "This website and the BTC White documentation are provided for informational purposes only. Nothing here is financial, investment, legal, accounting or tax advice.",
+        "BTCWH participation may involve market, technology, regulatory and operational risks. Users should make independent decisions and consult qualified advisors where appropriate.",
+        "BTC White does not guarantee token value, liquidity, exchange listings, profitability or future market performance. Official information should be verified only through btcwh.io and verified BTC White channels."
+      ]
+    },
+    {
+      "id": "founder",
+      "title": "Letter from the Founder",
+      "kicker": "Building the Future Step by Step",
+      "paras": [
+        "BTC White was created with a long-term vision rather than a short-term objective. The goal is not simply to introduce another digital asset, but to build a sustainable ecosystem where technology, transparency and responsible development create lasting value.",
+        "Trust cannot be created through promises alone. Trust is earned through consistent execution, open communication, careful planning and respect for the community that supports the project.",
+        "Welcome to BTC White. The time for BTCWH has come."
+      ]
+    },
+    {
+      "id": "summary",
+      "title": "Executive Summary",
+      "kicker": "The BTCWH Token",
+      "paras": [
+        "BTCWH is the native digital asset of the BTC White ecosystem. Its intended purpose is to support future ecosystem services, payment initiatives and strategic development.",
+        "The token is designed around a permanently fixed maximum supply of 21,000,000 BTCWH. BTC White is planned around Solana infrastructure, practical utility and responsible ecosystem growth.",
+        "The project is not intended to remain a standalone token. BTC White seeks to develop a broader ecosystem that may include payment solutions, digital services, merchant integrations, strategic partnerships, developer participation and future products."
+      ]
+    },
+    {
+      "id": "market",
+      "title": "Market Analysis",
+      "kicker": "A Changing Digital Economy",
+      "paras": [
+        "Blockchain has evolved from an experimental concept into a global technology movement. Digital assets now appear in payments, DeFi, tokenization, gaming, digital identity and enterprise infrastructure.",
+        "Adoption still faces technical complexity, fragmented user experiences, regulatory uncertainty, cybersecurity risks and limited real-world utility in many projects.",
+        "BTC White seeks to contribute by focusing on transparent governance, practical applications, predictable tokenomics, security-focused infrastructure and long-term utility."
+      ]
+    },
+    {
+      "id": "vision",
+      "title": "Vision & Mission",
+      "kicker": "Creating Practical Digital Value",
+      "paras": [
+        "The vision of BTC White is to contribute to a future where blockchain becomes a trusted part of everyday digital life.",
+        "The mission is to develop a transparent and secure blockchain ecosystem that encourages practical digital interactions while maintaining integrity, responsible innovation and long-term planning.",
+        "Long-term objectives include secure blockchain development, payment-related innovation, strategic partnerships, expanded ecosystem functionality and stronger community participation."
+      ]
+    },
+    {
+      "id": "principles",
+      "title": "Core Principles",
+      "kicker": "What Guides BTC White",
+      "paras": [
+        "BTC White is guided by principles rather than short-term market trends. These principles define how the ecosystem should develop over time."
+      ],
+      "bullets": [
+        "Transparency through clear official communication.",
+        "Responsible development with quality, security and long-term impact before speed.",
+        "Practical utility focused on solving real problems.",
+        "Security for smart contracts, infrastructure, operations and users.",
+        "Fixed supply of 21,000,000 BTCWH.",
+        "Community, education, collaboration and global accessibility.",
+        "Innovation that improves usability, efficiency, security or ecosystem value."
+      ]
+    },
+    {
+      "id": "ecosystem",
+      "title": "Ecosystem Architecture",
+      "kicker": "More Than a Token",
+      "paras": [
+        "BTC White is designed as the foundation of a growing digital ecosystem rather than a standalone digital asset. BTCWH serves as the core utility element connecting future ecosystem components.",
+        "Core layers include the BTCWH token, Solana infrastructure, wallets, smart contracts, security systems, community, payment tools, merchants, future products and strategic partners.",
+        "Every future component should increase practical usefulness and strengthen the value and functionality of the ecosystem."
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "Technology & Blockchain Infrastructure",
+      "kicker": "Built on Solana",
+      "paras": [
+        "BTC White is planned to operate on Solana because of high throughput, fast confirmations, low transaction costs, developer maturity, wallet compatibility and broad ecosystem adoption.",
+        "Technology priorities include scalability, reliability, secure smart contracts, wallet compatibility, monitoring systems, operational security and continuous improvement.",
+        "Technical principles are simple: security before expansion, scalability before mass adoption, reliability before rapid deployment and simplicity before unnecessary complexity."
+      ]
+    },
+    {
+      "id": "tokenomics",
+      "title": "Tokenomics",
+      "kicker": "Transparent Economics",
+      "paras": [
+        "Tokenomics defines the economic foundation of BTC White. BTCWH has a permanently fixed maximum supply of 21,000,000 tokens, and no additional BTCWH tokens are intended to be created beyond this maximum supply.",
+        "The allocation model is designed around transparency, sustainability, responsible treasury management and long-term ecosystem utility."
+      ],
+      "table": [
+        [
+          "Liquidity",
+          "30%",
+          "6,300,000 BTCWH"
+        ],
+        [
+          "Strategic Reserve",
+          "25%",
+          "5,250,000 BTCWH"
+        ],
+        [
+          "Marketing & Growth",
+          "15%",
+          "3,150,000 BTCWH"
+        ],
+        [
+          "Team & Development",
+          "15%",
+          "3,150,000 BTCWH"
+        ],
+        [
+          "Ecosystem Development",
+          "10%",
+          "2,100,000 BTCWH"
+        ],
+        [
+          "Founders Presale",
+          "5%",
+          "1,050,000 BTCWH"
+        ]
+      ]
+    },
+    {
+      "id": "presale",
+      "title": "Founders Presale",
+      "kicker": "Early Ecosystem Participation",
+      "paras": [
+        "The Founders Presale represents the first planned opportunity for eligible participants to acquire BTCWH before broader public availability.",
+        "The allocation reserved for Founders Presale is 1,050,000 BTCWH, representing 5% of the maximum supply. The planned minimum participation amount is 10 USDT.",
+        "Official payment methods, wallet addresses and participation instructions will be published only through btcwh.io and verified BTC White channels. BTC White will never request private keys, seed phrases or wallet passwords."
+      ],
+      "cards": [
+        [
+          "Allocation",
+          "1,050,000 BTCWH"
+        ],
+        [
+          "Share of Supply",
+          "5%"
+        ],
+        [
+          "Minimum Participation",
+          "10 USDT"
+        ],
+        [
+          "Network",
+          "Solana"
+        ]
+      ]
+    },
+    {
+      "id": "roadmap",
+      "title": "Strategic Roadmap",
+      "kicker": "Responsible Execution",
+      "paras": [
+        "The BTC White roadmap is a strategic framework rather than a fixed schedule. Each phase is designed to strengthen the technological foundation, ecosystem capability and community."
+      ],
+      "timeline": [
+        [
+          "Phase I — Foundation",
+          "Brand identity, official domain, website, infrastructure protection, whitepaper preparation and initial communication channels."
+        ],
+        [
+          "Phase II — Infrastructure & Community",
+          "Community expansion, wallet compatibility preparation, documentation improvements, technical testing and security improvements."
+        ],
+        [
+          "Phase III — Founders Presale",
+          "Initial distribution framework, participant support, operational readiness, transparency reporting and ecosystem funding."
+        ],
+        [
+          "Phase IV — Token Launch",
+          "Smart contract deployment, token generation, liquidity preparation, DEX availability and monitoring."
+        ],
+        [
+          "Phase V — Ecosystem Expansion",
+          "Merchant integrations, digital services, developer resources, wallet integrations, partnerships and community initiatives."
+        ],
+        [
+          "Phase VI — BTCWH Pay",
+          "Payment-focused infrastructure, merchant tools, digital commerce, service payments and future payment applications."
+        ],
+        [
+          "Phase VII — Global Expansion",
+          "Partnerships, education, community localization, business collaboration and international ecosystem growth."
+        ],
+        [
+          "Phase VIII — Long-Term Evolution",
+          "Additional ecosystem services, expanded payment capabilities, infrastructure optimization and broader partnerships."
+        ]
+      ]
+    },
+    {
+      "id": "pay",
+      "title": "BTCWH Pay",
+      "kicker": "Long-Term Payment Vision",
+      "paras": [
+        "BTCWH Pay represents the long-term payment direction of the BTC White ecosystem. It is envisioned as future payment-focused infrastructure built around BTCWH.",
+        "Potential use cases may include digital commerce, merchant solutions, service payments, cross-border transactions where permitted by law and payments connected to future ecosystem products.",
+        "Successful payment solutions must prioritize intuitive interfaces, efficient transaction processing, wallet compatibility, transparent information and reliable infrastructure."
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Security & Trust Framework",
+      "kicker": "Security Is an Ongoing Process",
+      "paras": [
+        "Security is not a single feature or milestone. BTC White treats security as an ongoing process integrated into every stage of development.",
+        "The project intends to use layered security practices including infrastructure protection, operational monitoring, controlled deployment procedures, access management, incident planning and continuous technical review.",
+        "Users should verify official information, protect private keys and recovery phrases, avoid unofficial channels and remain alert to phishing and impersonation attempts."
+      ]
+    },
+    {
+      "id": "governance",
+      "title": "Governance & Treasury Management",
+      "kicker": "Responsible Stewardship",
+      "paras": [
+        "Sustainable blockchain ecosystems require governance that balances innovation, security, transparency and long-term planning.",
+        "BTC White governance is intended to promote responsible leadership, accountability, operational discipline, financial responsibility and alignment with the project vision.",
+        "Treasury resources may support software development, infrastructure, cybersecurity, ecosystem expansion, strategic partnerships, community initiatives and operational continuity."
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Community & Global Growth",
+      "kicker": "Technology Connects Systems. Community Connects People.",
+      "paras": [
+        "BTC White views its community as an active participant in ecosystem development rather than only a group of token holders.",
+        "Community members may contribute through feedback, responsible participation, education, testing, issue reporting and ecosystem awareness.",
+        "BTC White is designed with an international perspective and intends to make information accessible through multilingual communication and documentation where practical."
+      ]
+    },
+    {
+      "id": "risk",
+      "title": "Risk Factors",
+      "kicker": "Transparent Risk Disclosure",
+      "paras": [
+        "Participation in blockchain ecosystems involves uncertainty. Digital asset markets can fluctuate significantly because of liquidity, sentiment, macroeconomic conditions, technology, regulation and market structure.",
+        "Technology, smart contract, cybersecurity, regulatory, operational, adoption, third-party and force majeure risks may affect ecosystem development.",
+        "Each participant remains responsible for independent decisions. Participation should be based on informed judgment and awareness of risks."
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal & Regulatory Considerations",
+      "kicker": "Responsible Compliance",
+      "paras": [
+        "Blockchain regulation continues to develop across jurisdictions. BTC White intends to develop its ecosystem with respect for applicable legal and regulatory frameworks.",
+        "This website does not constitute an offer of securities, investment advice or a promise of financial return. Availability of BTCWH-related products or services may vary by jurisdiction.",
+        "The BTC White name, logo, website content, documentation and original materials are intended to be protected by applicable intellectual property laws."
+      ]
+    },
+    {
+      "id": "whitepaper",
+      "title": "Official Documents",
+      "kicker": "Whitepaper & Verified Materials",
+      "paras": [
+        "The BTC White Whitepaper includes the project mission, tokenomics, roadmap, reserve principles, presale framework, ecosystem vision, security considerations and legal disclosures.",
+        "Always download documents from btcwh.io or verified BTC White channels only."
+      ],
+      "docs": true
+    },
+    {
+      "id": "links",
+      "title": "Official Links & Transparency",
+      "kicker": "Verify Before You Act",
+      "paras": [
+        "Official links help users verify information and avoid fake websites, impersonators and unsafe contracts. Always confirm the token address and official sources before making any transaction."
+      ],
+      "links": true
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "kicker": "Common Questions",
+      "faq": [
+        [
+          "What is BTCWH?",
+          "BTCWH is the token symbol for BTC White, a digital asset project designed around transparency, practical utility and long-term ecosystem development."
+        ],
+        [
+          "What is the maximum supply?",
+          "The maximum supply is permanently fixed at 21,000,000 BTCWH."
+        ],
+        [
+          "Which blockchain does BTC White use?",
+          "BTC White is planned around the Solana ecosystem."
+        ],
+        [
+          "What is Founders Presale?",
+          "Founders Presale is the planned early participation allocation of 1,050,000 BTCWH, equal to 5% of the maximum supply."
+        ],
+        [
+          "Is BTCWH guaranteed to increase in value?",
+          "No. BTC White does not guarantee token value, liquidity, exchange listings, profitability or market performance."
+        ]
+      ]
+    }
+  ],
+  "brand": {
+    "name": "BTC WHITE",
+    "ticker": "BTCWH",
+    "tagline": "THE TIME HAS COME. FOR A NEW GENERATION."
+  },
+  "global": {
+    "tableHeaders": {
+      "category": "Category",
+      "share": "Share",
+      "tokens": "Tokens"
+    },
+    "docTitle": "Download Whitepaper",
+    "official": "Official"
+  },
+  "officialLinks": [
+    {
+      "label": "Website",
+      "url": "https://btcwh.io"
+    },
+    {
+      "label": "Solscan",
+      "url": "https://solscan.io/token/GTUy76j5ALxwL9m6tMK9sNdqqZsfqiSgD2Zjo47eJCTA"
+    },
+    {
+      "label": "DexScreener",
+      "url": "https://dexscreener.com/solana/cubp7r5vc6pgkvdbdqgy8znjsemsfy494sw1nx8yrfrm"
+    },
+    {
+      "label": "Raydium",
+      "url": "https://raydium.io/swap/?inputMint=sol&outputMint=GTUy76j5ALxwL9m6tMK9sNdqqZsfqiSgD2Zjo47eJCTA"
+    }
+  ],
+  "docs": [
+    {
+      "label": "English PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_Final_EN.pdf"
+    },
+    {
+      "label": "Русский PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_RU.pdf"
+    },
+    {
+      "label": "Español PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_ES.pdf"
+    },
+    {
+      "label": "中文 PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_ZH.pdf"
+    },
+    {
+      "label": "한국어 PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_KO.pdf"
+    },
+    {
+      "label": "हिन्दी PDF",
+      "url": "docs/BTC_White_Whitepaper_v1.0_HI.pdf"
+    }
+  ]
+}
