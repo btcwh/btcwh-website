@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BTCWH Founders Presale</title>
+<style>
+:root{--line:#2a3345;--muted:#aab3c5;--gold:#f2b90c;--green:#16c784}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:radial-gradient(circle at top,#172033 0,#05070a 45%,#020306 100%);color:#fff;min-height:100vh;padding:24px}
+.wrap{max-width:1040px;margin:0 auto;display:grid;grid-template-columns:1.05fr .95fr;gap:22px}
+.header{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.brand{display:flex;align-items:center;gap:12px}.logo{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--gold),#fff1a8);display:flex;align-items:center;justify-content:center;color:#000;font-weight:900;font-size:24px;overflow:hidden}.logo img{width:100%;height:100%;object-fit:cover}
+.brand span,.subtitle,.note,.step span,.small{color:var(--muted)}.nav a{color:#ffd966;text-decoration:none;font-weight:700;margin-left:16px}
+.card{background:rgba(16,20,29,.94);border:1px solid var(--line);border-radius:28px;padding:30px;box-shadow:0 28px 80px rgba(0,0,0,.45)}
+h1{font-size:44px;line-height:1.05;margin:0 0 12px}.subtitle{line-height:1.55;font-size:17px;margin:0 0 22px}
+.status{border:1px solid #775f16;background:rgba(242,185,12,.1);color:#ffd966;border-radius:16px;padding:12px 14px;margin:0 0 20px;font-weight:800}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}.box{border:1px solid var(--line);border-radius:18px;padding:14px;background:rgba(255,255,255,.035)}.box span{display:block;color:var(--muted);font-size:13px;margin-bottom:6px}
+label{display:block;color:var(--muted);margin:16px 0 8px;font-size:14px}input,select,button{width:100%;border-radius:16px;border:1px solid #34405a;padding:15px 16px;font-size:16px;background:#0a0e16;color:#fff;outline:none}
+button{background:var(--gold);color:#000;font-weight:900;cursor:pointer;border:none;margin-top:14px}button.secondary{background:#182033;color:#fff;border:1px solid var(--line)}
+.receive{margin:18px 0 4px;border:1px solid rgba(22,199,132,.35);background:rgba(22,199,132,.08);border-radius:18px;padding:16px}.receive span{color:var(--muted);display:block;margin-bottom:6px}.receive b{font-size:26px;color:#7df0b2}
+.note{font-size:13px;line-height:1.5;margin-top:18px}code{word-break:break-all;color:#fff}.back{display:inline-block;color:#ffd966;text-decoration:none;margin-top:16px;font-weight:700}
+.steps{display:grid;gap:12px}.step{display:flex;gap:12px;border:1px solid var(--line);background:rgba(255,255,255,.035);border-radius:18px;padding:14px}.num{width:28px;height:28px;border-radius:50%;background:var(--gold);color:#000;display:flex;align-items:center;justify-content:center;font-weight:900;flex:0 0 28px}
+.warn{margin-top:16px;border:1px solid rgba(255,91,91,.35);background:rgba(255,91,91,.08);border-radius:18px;padding:14px;color:#ffd0d0;line-height:1.45}
+@media(max-width:850px){.wrap{grid-template-columns:1fr}.header{display:block}.nav{margin-top:12px}.nav a{margin:0 14px 0 0}h1{font-size:36px}}
+@media(max-width:520px){body{padding:16px}.grid{grid-template-columns:1fr}.card{padding:22px;border-radius:22px}h1{font-size:31px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="header"><div class="brand"><div class="logo"><img src="btcwh-logo.png" alt="BTCWH" onerror="this.remove();this.parentElement.textContent='B';"></div><div><b>BTC WHITE</b><br><span>BTCWH Founders Presale</span></div></div><nav class="nav"><a href="/">Main site</a><a href="https://jup.ag/swap?sell=So11111111111111111111111111111111111111112&buy=GTUy76j5ALxwL9m6tMK9sNdqqZsfqiSgD2Zjo47eJCtA" target="_blank" rel="noopener">Buy on Jupiter</a></nav></header>
+<section class="card">
+<h1>Founders Presale</h1>
+<p class="subtitle">Buy BTCWH in the official Founders Presale. The interface is ready for the Solana smart contract; purchase execution will be enabled after deployment.</p>
+<div class="status">Test mode: smart contract not deployed yet</div>
+<div class="grid"><div class="box"><span>Price</span><b>1 BTCWH = 0.10 USDC / USDT</b></div><div class="box"><span>Accepted</span><b>USDC / USDT</b></div><div class="box"><span>Network</span><b>Solana</b></div><div class="box"><span>Delivery</span><b>Instant after contract purchase</b></div></div>
+<button id="connectBtn" class="secondary">Connect Wallet</button>
+<label for="token">Payment token</label><select id="token"><option value="USDC">USDC</option><option value="USDT">USDT</option></select>
+<label for="amount">Amount</label><input id="amount" type="number" min="0" step="0.01" placeholder="Enter amount">
+<div class="receive"><span>You receive</span><b id="receive">0 BTCWH</b></div>
+<button id="buyBtn">Buy BTCWH</button><p id="statusText" class="note"></p>
+<p class="note">BTCWH Mint:<br><code>GTUy76j5ALxwL9m6tMK9sNdqqZsfqiSgD2Zjo47eJCtA</code><br><br>Presale wallet / vault:<br><code>Guj1pNotSgTe4z2XaUQhtd64deAQ7TyJXHC3bbkP8xNT</code></p><a class="back" href="/">← Back to btcwh.io</a>
+</section>
+<aside class="card"><h2 style="margin-top:0">How it will work</h2><div class="steps"><div class="step"><div class="num">1</div><div><b>Connect wallet</b><span>Use Solflare, Phantom, or another Solana-compatible wallet.</span></div></div><div class="step"><div class="num">2</div><div><b>Select USDC or USDT</b><span>Choose the payment token and enter the amount.</span></div></div><div class="step"><div class="num">3</div><div><b>Confirm transaction</b><span>After the smart contract is deployed, the wallet will ask you to confirm the purchase.</span></div></div><div class="step"><div class="num">4</div><div><b>Receive BTCWH</b><span>BTCWH will be sent automatically to the same wallet after successful payment.</span></div></div></div><div class="warn"><b>Important:</b> this page is not active for real purchases yet. Do not send funds manually. Wait until the smart contract deployment is confirmed.</div><p class="small">Current fixed price: 0.10 USDC / USDT per BTCWH.</p></aside>
+</div>
+<script>
+const PRICE=0.10;const amountInput=document.getElementById('amount');const receive=document.getElementById('receive');const statusText=document.getElementById('statusText');
+amountInput.addEventListener('input',()=>{const amount=Number(amountInput.value||0);const tokens=amount/PRICE;receive.textContent=tokens.toLocaleString(undefined,{maximumFractionDigits:6})+' BTCWH';});
+document.getElementById('connectBtn').addEventListener('click',async()=>{try{if(!window.solana){statusText.textContent='Solana wallet not found. Install Solflare or Phantom.';return;}const res=await window.solana.connect();statusText.textContent='Connected: '+res.publicKey.toString();}catch(e){statusText.textContent='Wallet connection cancelled.';}});
+document.getElementById('buyBtn').addEventListener('click',()=>{statusText.textContent='Smart contract is not deployed yet. This is a test interface.';});
+</script>
+</body></html>
