@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BTCWH Founders Presale</title>
+<style>
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#070b14;color:#fff}
+.wrap{max-width:1100px;margin:auto;padding:32px}
+.header{display:flex;align-items:center;justify-content:space-between;margin-bottom:32px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo img{width:54px;height:54px;border-radius:50%}
+a{color:#f2c230;text-decoration:none;font-weight:700}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.card{background:#101622;border:1px solid #273044;border-radius:26px;padding:28px}
+h1{font-size:48px;margin:0 0 16px}
+h2{font-size:32px;margin-top:0}
+p{color:#b9c0cf;line-height:1.55;font-size:18px}
+.notice{border:1px solid #8a6a14;background:#2a2412;color:#ffd75a;padding:16px;border-radius:18px;font-weight:700;margin:22px 0}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+.box{background:#171d2a;border:1px solid #30394d;border-radius:18px;padding:16px}
+.box span{display:block;color:#aab3c5;margin-bottom:8px}
+.big{font-size:22px;font-weight:800}
+button{width:100%;padding:18px;border:0;border-radius:18px;background:#f2b90c;color:#000;font-size:20px;font-weight:900;margin-top:18px}
+input,select{width:100%;padding:16px;border-radius:14px;border:1px solid #30394d;background:#0b111d;color:#fff;font-size:18px;margin-top:8px}
+.receive{background:#0d2825;border:1px solid #176f5d;color:#75f0c2;padding:18px;border-radius:18px;font-size:28px;font-weight:900;margin-top:18px}
+.step{display:flex;gap:14px;background:#171d2a;border:1px solid #30394d;border-radius:18px;padding:16px;margin:14px 0}
+.num{background:#f2b90c;color:#000;border-radius:50%;min-width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:900}
+.warn{border:1px solid #8b3340;background:#28131a;color:#ffc9cf;padding:18px;border-radius:18px;margin-top:24px}
+.small{font-size:14px;color:#8f98aa;margin-top:18px}
+@media(max-width:800px){.grid,.info{grid-template-columns:1fr}h1{font-size:38px}.wrap{padding:20px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <div class="logo">
+      <img src="btcwh-logo.png" alt="BTCWH">
+      <div><b>BTC WHITE</b><br><span style="color:#aab3c5">BTCWH Founders Presale</span></div>
+    </div>
+    <div>
+      <a href="index.html">Main site</a> &nbsp;&nbsp;
+      <a href="https://jup.ag" target="_blank">Buy on Jupiter</a>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h1>Founders Presale</h1>
+      <p>Buy BTCWH in the official Founders Presale. The interface is prepared for Solana smart contract integration.</p>
+      <div class="notice">Test mode: smart contract not deployed yet</div>
+
+      <div class="info">
+        <div class="box"><span>Price</span><div class="big">1 BTCWH = 0.10 USDC / USDT</div></div>
+        <div class="box"><span>Accepted</span><div class="big">USDC / USDT</div></div>
+        <div class="box"><span>Network</span><div class="big">Solana</div></div>
+        <div class="box"><span>Delivery</span><div class="big">After contract purchase</div></div>
+      </div>
+
+      
+
+      <label>Payment token</label>
+      <select id="token">
+        <option>USDC</option>
+        <option>USDT</option>
+      </select>
+
+      <label>Amount</label>
+      <input id="amount" type="number" placeholder="Enter amount" oninput="calc()">
+
+      <div class="receive">You receive: <span id="receive">0</span> BTCWH</div>
+
+      <button onclick="connectWallet()" id="connectBtn">Connect Wallet</button>
+<p id="walletStatus" class="small">Wallet not connected</p>
+
+      <p class="small">
+        BTCWH Mint: GTUy76j5ALxwL9m6tMK9sNdqqZsfqiSgD2Zjo47eJCtA<br>
+        Presale wallet / vault: Guj1pNotSgTe4z2XaUQhtd64deAQ7TyJXHC3bbkP8xNT
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>How it will work</h2>
+
+      <div class="step"><div class="num">1</div><div><b>Connect wallet</b><br><p>Use Solflare, Phantom, or another Solana-compatible wallet.</p></div></div>
+      <div class="step"><div class="num">2</div><div><b>Select USDC or USDT</b><br><p>Choose the payment token and enter the amount.</p></div></div>
+      <div class="step"><div class="num">3</div><div><b>Confirm transaction</b><br><p>After deployment, the wallet will ask you to confirm the purchase.</p></div></div>
+      <div class="step"><div class="num">4</div><div><b>Receive BTCWH</b><br><p>BTCWH will be sent automatically after successful payment.</p></div></div>
+
+      <div class="warn">
+        <b>Important:</b> this page is not active for real purchases yet. Do not send funds manually. Wait until the smart contract deployment is confirmed.
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function calc(){
+  const amount = Number(document.getElementById('amount').value || 0);
+  document.getElementById('receive').textContent = amount > 0 ? (amount / 0.10).toLocaleString() : '0';
+}
+function getSolanaProvider(){
+  if (window.phantom && window.phantom.solana) return window.phantom.solana;
+  if (window.solana) return window.solana;
+  return null;
+}
+function isMobileDevice(){
+  return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent || '');
+}
+function openInPhantom(){
+  const currentUrl = window.location.href;
+  const ref = window.location.origin || 'https://btcwh.io';
+  const phantomUrl = 'https://phantom.app/ul/browse/' + encodeURIComponent(currentUrl) + '?ref=' + encodeURIComponent(ref);
+  window.location.href = phantomUrl;
+}
+function shortAddress(address){
+  return address.slice(0,4) + '...' + address.slice(-4);
+}
+async function connectWallet(){
+  const btn = document.getElementById('connectWalletBtn') || document.getElementById('connectBtn');
+  const status = document.getElementById('walletStatus');
+  const provider = getSolanaProvider();
+
+  if (!provider) {
+    if (isMobileDevice()) {
+      if (status) status.textContent = 'Opening Phantom wallet...';
+      openInPhantom();
+      return;
+    }
+    alert('Phantom Wallet не найден. Установите Phantom или откройте сайт во встроенном браузере Phantom.');
+    return;
+  }
+
+  try {
+    const response = await provider.connect();
+    const address = response.publicKey.toString();
+    if (btn) {
+      btn.textContent = 'Connected: ' + shortAddress(address);
+      btn.classList.add('connected');
+    }
+    if (status) status.textContent = 'Connected: ' + shortAddress(address);
+    localStorage.setItem('btcwh_wallet_connected', address);
+  } catch (err) {
+    console.error(err);
+    if (status) status.textContent = 'Wallet connection cancelled';
+    alert('Подключение отменено.');
+  }
+}
+async function restoreWalletConnection(){
+  const provider = getSolanaProvider();
+  if (!provider) return;
+  try {
+    const response = await provider.connect({ onlyIfTrusted: true });
+    const address = response.publicKey.toString();
+    const btn = document.getElementById('connectWalletBtn') || document.getElementById('connectBtn');
+    const status = document.getElementById('walletStatus');
+    if (btn) {
+      btn.textContent = 'Connected: ' + shortAddress(address);
+      btn.classList.add('connected');
+    }
+    if (status) status.textContent = 'Connected: ' + shortAddress(address);
+  } catch (e) {}
+}
+document.addEventListener('DOMContentLoaded', restoreWalletConnection);
+</script>
+</body>
+</html>
